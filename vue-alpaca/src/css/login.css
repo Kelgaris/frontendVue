@@ -1,0 +1,76 @@
+.bg {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/bgLogin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+h1 {
+  color: #9d4edd;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 93%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border: 2px solid #eee;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #9d4edd;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #ff6f91;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: #ff4f7a;
+}
+
+.link {
+  display: block;
+  margin-top: 15px;
+  color: #9d4edd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error {
+  color: #ff4f7a;
+  margin-top: 10px;
+}
